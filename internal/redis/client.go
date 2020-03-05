@@ -3,8 +3,8 @@ package redis
 import (
 	"time"
 
-	"github.com/cymon1997/go-backend/internal/config"
-	"github.com/cymon1997/go-backend/internal/log"
+	"github.com/cymonevo/monitor-backend/internal/config"
+	"github.com/cymonevo/monitor-backend/internal/log"
 	"github.com/gomodule/redigo/redis"
 )
 

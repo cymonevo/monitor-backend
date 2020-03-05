@@ -1,8 +1,8 @@
 package database
 
 import (
-	"github.com/cymon1997/go-backend/internal/config"
-	"github.com/cymon1997/go-backend/internal/log"
+	"github.com/cymonevo/monitor-backend/internal/config"
+	"github.com/cymonevo/monitor-backend/internal/log"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"

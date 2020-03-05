@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/cymon1997/go-backend/entity"
-	"github.com/cymon1997/go-backend/internal/log"
+	"github.com/cymonevo/monitor-backend/entity"
+	"github.com/cymonevo/monitor-backend/internal/log"
 )
 
 const getArticleTag = "Article|Get"

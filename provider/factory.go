@@ -3,7 +3,7 @@ package provider
 import (
 	"sync"
 
-	"github.com/cymon1997/go-backend/module/article/model"
+	"github.com/cymonevo/monitor-backend/module/article/model"
 )
 
 var (

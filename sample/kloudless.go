@@ -3,9 +3,9 @@ package sample
 import (
 	"context"
 
-	"github.com/cymon1997/go-backend/internal/log"
-	"github.com/cymon1997/go-backend/provider"
-	"github.com/cymon1997/go-backend/sdk/kloudless"
+	"github.com/cymonevo/monitor-backend/internal/log"
+	"github.com/cymonevo/monitor-backend/provider"
+	"github.com/cymonevo/monitor-backend/sdk/kloudless"
 )
 
 func KloudlessSample() {

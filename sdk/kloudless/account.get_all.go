@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/cymon1997/go-backend/handler"
-	"github.com/cymon1997/go-backend/internal/log"
-	"github.com/cymon1997/go-backend/sdk"
+	"github.com/cymonevo/monitor-backend/handler"
+	"github.com/cymonevo/monitor-backend/internal/log"
+	"github.com/cymonevo/monitor-backend/sdk"
 )
 
 const getAllAccounts = "/accounts"

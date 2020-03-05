@@ -2,6 +2,31 @@
 
 
 [[projects]]
+  branch = "master"
+  digest = "1:f55f3c9f180d337373e50e9e701c25a2c9ace878afd15e525fc71d651998cc03"
+  name = "github.com/cymonevo/monitor-backend"
+  packages = [
+    "consumer",
+    "entity",
+    "handler",
+    "internal/config",
+    "internal/database",
+    "internal/elastic",
+    "internal/log",
+    "internal/mq",
+    "internal/redis",
+    "internal/render",
+    "internal/router",
+    "internal/util",
+    "module/article/model",
+    "provider",
+    "sdk",
+    "sdk/kloudless",
+  ]
+  pruneopts = "UT"
+  revision = "491032f36b19d27b6202d7d869b5963267fdf4a0"
+
+[[projects]]
   digest = "1:bde2a1ce1de28312f165a88926c12f4acd19dc4d7da96a445dfa5a29eae07a93"
   name = "github.com/fatih/color"
   packages = ["."]
@@ -215,6 +240,22 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/cymonevo/monitor-backend/consumer",
+    "github.com/cymonevo/monitor-backend/entity",
+    "github.com/cymonevo/monitor-backend/handler",
+    "github.com/cymonevo/monitor-backend/internal/config",
+    "github.com/cymonevo/monitor-backend/internal/database",
+    "github.com/cymonevo/monitor-backend/internal/elastic",
+    "github.com/cymonevo/monitor-backend/internal/log",
+    "github.com/cymonevo/monitor-backend/internal/mq",
+    "github.com/cymonevo/monitor-backend/internal/redis",
+    "github.com/cymonevo/monitor-backend/internal/render",
+    "github.com/cymonevo/monitor-backend/internal/router",
+    "github.com/cymonevo/monitor-backend/internal/util",
+    "github.com/cymonevo/monitor-backend/module/article/model",
+    "github.com/cymonevo/monitor-backend/provider",
+    "github.com/cymonevo/monitor-backend/sdk",
+    "github.com/cymonevo/monitor-backend/sdk/kloudless",
     "github.com/fatih/color",
     "github.com/go-sql-driver/mysql",
     "github.com/gomodule/redigo/redis",

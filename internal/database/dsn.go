@@ -3,7 +3,7 @@ package database
 import (
 	"fmt"
 
-	"github.com/cymon1997/go-backend/internal/config"
+	"github.com/cymonevo/monitor-backend/internal/config"
 )
 
 func parseDSN(cfg config.DBConfig) string {

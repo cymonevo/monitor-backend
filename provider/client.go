@@ -3,7 +3,7 @@ package provider
 import (
 	"sync"
 
-	"github.com/cymon1997/go-backend/internal/elastic"
+	"github.com/cymonevo/monitor-backend/internal/elastic"
 )
 
 var (

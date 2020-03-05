@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cymon1997/go-backend/internal/util"
-	"github.com/cymon1997/go-backend/sdk"
+	"github.com/cymonevo/monitor-backend/internal/util"
+	"github.com/cymonevo/monitor-backend/sdk"
 )
 
 type Client interface {

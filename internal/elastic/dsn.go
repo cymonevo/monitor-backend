@@ -3,7 +3,7 @@ package elastic
 import (
 	"fmt"
 
-	"github.com/cymon1997/go-backend/internal/config"
+	"github.com/cymonevo/monitor-backend/internal/config"
 )
 
 func parseAddress(cfg config.ESConfig) string {
